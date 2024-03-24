@@ -1,3 +1,5 @@
+import { Route, Link } from 'react-router-dom';
+
 import logo from '../assets/logo.svg'
 
 function Header() {
@@ -13,7 +15,7 @@ function Header() {
             </div>
             <div className="header-left">
                 <ul>
-                    <a href="/" className='hover:bg-gray-200 ease-in-out duration-300 px-4 py-2 rounded-full'>Войти</a>
+                    <Link to="/login" className='hover:bg-gray-200 ease-in-out duration-300 px-4 py-2 rounded-full'>Войти</Link>
                 </ul>
             </div>
         </div>
