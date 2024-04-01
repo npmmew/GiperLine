@@ -1,11 +1,13 @@
-import Profile from '../../components/Profile'
-import ProfileProgress from '../../components/ProfileProgress'
+import Profile from "../../components/Profile";
+import ProfileProgress from "../../components/ProfileProgress";
+import Dashboard from "../../components/Dashboard";
 
 function ProfilePage() {
   return (
-    <div className='container flex p-10 bg-gray-100 rounded-lg justify-between'>
-        <Profile/>
-        <ProfileProgress/>
+    <div className="flex">
+      <Dashboard />
+      <Profile />
+      <ProfileProgress />
     </div>
   );
 }
